@@ -5,10 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pong</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            height: 100dvh;
+        }
+
+        canvas{
+            border: 1px solid #246;
+        }
+    </style>
 </head>
 <body>
     <!-- Canvas element: An HTML5 Element for drawing objects and stuff -->
-    <canvas id="gameArea"></canvas>
+    <canvas id="gameArea" width="600px" height="400px"></canvas>
 
     <!-- Linking the JS to the HTML -->
     <script src="./pong.js"></script>
